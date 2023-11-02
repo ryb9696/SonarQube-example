@@ -1,5 +1,5 @@
 pipeline{
-    agent {label 'jfrog'}
+    agent {label 'sona-slave'}
     stages{
        stage('Git Checkout Stage'){
             steps{
