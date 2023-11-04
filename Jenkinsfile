@@ -1,5 +1,5 @@
 pipeline{
-    agent {label 'sonar-slave1'}
+    agent {label 'sonar-qube'}
     stages{
        stage('Git Checkout Stage'){
             steps{
